@@ -10,13 +10,43 @@
 
   <body>
     <section>
-		<img src="http://www.obee-one.com/imagez/logo.png" alt="Frame Up Logo">
-		<h1>Responsive Layout using 2 Media Queries</h1>
-		<p>
-		  Please resize the browser window's width to see how the image above rescales to fit the screen resolution (browser window width). The trick in making images responsive is to set the width to 100% (not pixels). This will keep the image as large as the container it has been placed within. In this case the container is a blue section tag set to 70% of the body. The white body area has been set to 80% of the browser window. You will also notice this paragraph responds to the available width by reflowing from maximum 3 columns (over 1000px wide - large desktop monitors)down to media querie set to trip down to 2 columns for tablets (under 1000px) and another down to 1 column for smart phones (below 800px).
-		</p>
+  		<img src="centerice.png" alt="Frame Up Logo">
+  		<h1>Hockey is coming.</h1>
+
+      <p id="demo"></p>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Oct 6, 2018 19:30:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+          // Get todays date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now an the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+    </script>
 		<footer>
-		<a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/">Detailed range of monitor/devices.</a>
+		<a href="https://www.nhl.com/stars">Go Stars</a>
 
 	</section>
 

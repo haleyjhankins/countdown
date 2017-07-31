@@ -48,7 +48,8 @@ table {
 }
 
 		/*Start CSS*/
-		body {
+
+body {
 	width: 80%;
 	margin: 50px auto;
 	font-family: sans-serif;
@@ -56,11 +57,15 @@ table {
   background: white;
 }
 
+#demo{
+	margin: 0 auto;
+	text-align: center;
+}
+
 section {
 	width: 80%;
   max-width:730px;
 	margin: auto;
-	background: #66e2dc;
 	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .3);
 	-moz-box-shadow: 0 0 5px rgba(0,0,0, .3);
 	box-shadow: 0 0 5px rgba(0,0,0, .3);
@@ -80,17 +85,17 @@ footer {
 
 h1 {
 	font-size: 3em;
+	text-align: center;
 }
 
 p {
 
-	-webkit-columns: 3;
-	-moz-columns: 3;
-	columns: 3;
+
 	-webkit-column-gap: 1.2em;
 	-moz-column-gap: 1.2em;
 	column-gap: 1.2em;
 	padding-bottom: 2.4em;
+	padding-top: 2.4em;
 }
 
 @media screen and (max-width: 1020px) {
@@ -102,6 +107,7 @@ p {
 
   h1 {
 	font-size: 2em;
+	text-align: center;
 }
 
   body {
@@ -117,6 +123,7 @@ p {
 
   h1 {
 	font-size: 1.6em;
+
 }
 
 body {

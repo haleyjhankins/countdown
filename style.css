@@ -84,13 +84,13 @@ footer {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 }
 
 p {
 
-
+	font-size: 3em;
 	-webkit-column-gap: 1.2em;
 	-moz-column-gap: 1.2em;
 	column-gap: 1.2em;

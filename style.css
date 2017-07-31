@@ -64,12 +64,12 @@ body {
 
 section {
 	width: 80%;
-  max-width:730px;
+  /*max-width:900px;*/
 	margin: auto;
-	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .3);
+	/*-webkit-box-shadow: 0 0 5px rgba(0,0,0, .3);
 	-moz-box-shadow: 0 0 5px rgba(0,0,0, .3);
-	box-shadow: 0 0 5px rgba(0,0,0, .3);
-	padding: 2em;
+	box-shadow: 0 0 5px rgba(0,0,0, .3);*/
+	/*padding: 2em;*/
 }
 
 section img {
@@ -84,7 +84,7 @@ footer {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -100,9 +100,9 @@ p {
 
 @media screen and (max-width: 1020px) {
 	p {
-		-webkit-columns: 2;
+		/*-webkit-columns: 2;
 		-moz-columns: 2;
-		columns: 2;
+		columns: 2;*/
 	}
 
   h1 {

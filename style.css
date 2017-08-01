@@ -59,13 +59,9 @@ body {
   background-color: black;
 }
 
-#image{
-	margin-top: -200px;
-  max-width: 100% ;
-  height: auto ;
+#goalie{
+	max-width: 70%;
 }
-
-
 
 /*Countdown Section*/
 

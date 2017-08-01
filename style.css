@@ -61,7 +61,7 @@ body {
 
 #goalie{
 	max-width: 100%;
-	margin-top: -10%;
+	margin-top: -12%;
 }
 
 /*Arrow*/
@@ -69,6 +69,7 @@ body {
 		margin-top: 5%;
 		max-width: 50px;
 		margin: 0  auto;
+
 	}
 
 

@@ -60,8 +60,15 @@ body {
 }
 
 #goalie{
-	max-width: 70%;
+	max-width: 90%;
+	margin-top: -10%;
 }
+
+/*Arrow*/
+	.arrow{
+		margin-top: 5%;
+	}
+
 
 /*Countdown Section*/
 

@@ -66,11 +66,12 @@ body {
 
 /*Arrow*/
 	.arrow{
-		margin-top: 5%;
+		margin-top: 10%;
 		max-width: 50px;
 		margin: 0  auto;
 
 	}
+
 
 
 /*Countdown Section*/
@@ -107,6 +108,7 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: 'Permanent Marker', cursive;
+	margin-bottom: 1%;
 }
 
 p {
@@ -128,6 +130,10 @@ p {
 		columns: 2;*/
 	}
 
+	.arrow{
+		margin-top: 15%;
+	}
+
   h1 {
 	font-size: 3em;
 	text-align: center;
@@ -145,11 +151,16 @@ p {
 		-moz-columns: 1;
 		columns: 1;
 		color: white;
+		font-size: 2em;
 
 	}
 
+	.arrow{
+		margin-top: 15%;
+	}
+
   h1 {
-	font-size: 1.6em;
+	font-size: 2em;
 	font-family: 'Permanent Marker', cursive;
 
 }
